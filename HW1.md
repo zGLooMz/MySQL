@@ -32,14 +32,14 @@
     select *
     from mobile_phones mp where mp.Manufacturer = 'Samsung';
     ```
-4**.  Выведите информацию о телефонах, где суммарный чек больше 100 000 и меньше 145 000**
+4.  Выведите информацию о телефонах, где суммарный чек больше 100 000 и меньше 145 000**
 
     ```sql
     select mp.Product_name, Manufacturer, Product_count, Price
     from mobile_phones mp where mp.Product_count * mp.Price > 100000 AND mp.Product_count * mp.Price < 145000;
     ```
 
-4***.  С помощью регулярных выражений найти***:
+    С помощью регулярных выражений найти***:
 
     1. Товары, в которых есть упоминание "Iphone"
 
