@@ -32,7 +32,7 @@
     select *
     from mobile_phones mp where mp.Manufacturer = 'Samsung';
     ```
-4.** 
+4.**  Выведите информацию о телефонах, где суммарный чек больше 100 000 и меньше 145 000
 
     ```sql
     select mp.Product_name, Manufacturer, Product_count, Price
