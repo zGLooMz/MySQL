@@ -33,6 +33,7 @@
     from mobile_phones mp where mp.Manufacturer = 'Samsung';
     ```
 4.** 
+
     ```sql
     select mp.Product_name, Manufacturer, Product_count, Price
     from mobile_phones mp where mp.Product_count * mp.Price > 100000 AND mp.Product_count * mp.Price < 145000;
